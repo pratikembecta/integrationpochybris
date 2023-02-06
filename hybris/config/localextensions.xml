@@ -1,0 +1,97 @@
+<hybrisconfig xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../bin/platform/resources/schemas/extensions.xsd'>
+  <extensions>
+    <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
+    
+	<extension name="integrationmonitoringbackoffice" />
+	<extension name="outboundsyncbackoffice" />
+	<!--
+	<extension name='sapcpiadapter' />
+	<extension name='sapcpicustomerexchange' />
+	<extension name='sapcpiorderexchange' />
+	<extension name='sapcpiorderexchangeb2b' />
+	<extension name='sapcpiorderexchangeomsb2b' />
+	<extension name='sapcpiproductexchange' />
+	<extension name='sapcpicustomerexchangeb2b' />
+	<extension name='sapcoreconfigurationbackoffice' />
+	<extension name='sapmodelbackoffice' />
+	<extension name='sapcustomerb2bbackoffice' />
+	<extension name='saporderexchangebackoffice' />
+	-->
+	
+    <extension name='adaptivesearch' />
+    <extension name='adaptivesearchbackoffice' />
+    <extension name='adaptivesearchfacades' />
+    <extension name='adaptivesearchsamplesaddon' />
+    <extension name='adaptivesearchsolr' />
+    <extension name='adaptivesearchwebservices' />
+    <extension name='apiregistrybackoffice' />
+    <extension name='apiregistryservices' />
+    
+	<extension name='b2bacceleratorbackoffice' />
+    <extension name='b2bacceleratorfacades' />
+    <extension name='b2bacceleratorservices' />
+    <extension name='b2bocc' />
+	
+    <extension name='b2bwebservicescommons' />
+    <extension name='b2bcommerce' />
+    <extension name='b2bcommercebackoffice' />
+    <extension name='b2bcommercefacades' />
+	
+    <extension name='backoffice' />
+    <extension name='pcmbackoffice' />
+    <extension name='platformbackoffice' />
+    
+    <extension name='commercefacades' />
+    <extension name='commerceservices' />
+    <extension name='commerceservicesbackoffice' />
+    <extension name='commercewebservices' />
+    <extension name='commercewebservicescommons' />
+	
+    <extension name='inboundservices' />
+	<extension name='integrationbackoffice' />
+    <extension name='integrationmonitoringbackoffice' />
+    <extension name='integrationservices' />
+	
+    <extension name='odata2services' />
+    <extension name='odata2webservices' />
+    <extension name='webservicescommons' />
+    <extension name='outboundservices' />
+    <extension name='outboundsync' />
+    <extension name='outboundsyncbackoffice' />
+	
+    <extension name='webhookbackoffice' />
+    <extension name='webhookservices' />
+    
+    <extension name='adminapi' />
+    
+	
+    <extension name='backofficesolrsearch' />
+    <extension name='solrfacetsearch' />
+    <extension name='solrfacetsearchbackoffice' />
+    <extension name='solrserver' />
+
+    <extension name='cms2' />
+    <extension name='cms2lib' />
+    <extension name='cmsbackoffice' />
+    <extension name='cmscockpit' />
+    <extension name='cmsfacades' />
+    <extension name='cmsocc' />
+    <extension name='cmswebservices' />
+    
+    <extension name="acceleratorservices"/>
+    
+	<extension name='webservicescommons' />
+    <extension name='swaggerintegration' />
+
+	<extension name="powertoolsstore"/>
+
+	<extension name="trainingbackoffice"/>
+	<extension name="trainingcore"/>
+	<extension name="trainingfacades"/>
+	<extension name="trainingfulfilmentprocess"/>
+	<extension name="traininginitialdata"/>
+	<extension name="trainingstorefront"/>
+	<extension name="trainingocc"/>
+	
+  </extensions>
+</hybrisconfig>
