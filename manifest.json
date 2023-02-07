@@ -43,7 +43,7 @@
             "value": "de,en"
         }
     ],
-   
+
     "aspects": [
         {
             "name": "backoffice",
@@ -64,6 +64,42 @@
                 {
                   "name":"odata2webservices",
                   "contextPath":"/odata2webservices"
+               },
+               {
+                   "name": "oauth2",
+                   "contextPath": "/authorizationserver"
+               },
+               {
+                   "name": "smartedit",
+                   "contextPath": "/smartedit"
+               },
+               {
+                   "name": "acceleratorservices",
+                   "contextPath": "/acceleratorservices"
+               },
+               {
+                   "name": "cmssmartedit",
+                   "contextPath": "/cmssmartedit"
+               },
+               {
+                   "name": "cmssmarteditwebservices",
+                   "contextPath": "/cmssmarteditwebservices"
+               },
+               {
+                   "name": "cmswebservices",
+                   "contextPath": "/cmswebservices"
+               },
+               {
+                   "name": "smarteditwebservices",
+                   "contextPath": "/smarteditwebservices"
+               },
+               {
+                   "name": "previewwebservices",
+                   "contextPath": "/previewwebservices"
+               },
+               {
+                   "name": "permissionswebservices",
+                   "contextPath": "/permissionswebservices"
                }
             ]
         },
@@ -128,20 +164,11 @@
                     "contextPath": "/previewwebservices"
                 },
                 {
-                    "name": "mediaweb",
-                    "contextPath": "/medias"
+                    "name":"odata2webservices",
+                    "contextPath":"/odata2webservices"
                 }
             ]
         }
-    ],
-    "tests": {
-        "extensions": [],
-        "annotations": [
-            "UnitTests",
-            "IntegrationTests"
-        ],
-        "packages": [
-            "com.acme.*"
-        ]
-    }
+    ]
+
 }
