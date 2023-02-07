@@ -4,7 +4,7 @@
     
 	<extension name="integrationmonitoringbackoffice" />
 	<extension name="outboundsyncbackoffice" />
-	<!--
+	
 	<extension name='sapcpiadapter' />
 	<extension name='sapcpicustomerexchange' />
 	<extension name='sapcpiorderexchange' />
@@ -16,7 +16,7 @@
 	<extension name='sapmodelbackoffice' />
 	<extension name='sapcustomerb2bbackoffice' />
 	<extension name='saporderexchangebackoffice' />
-	-->
+	
 	
     <extension name='adaptivesearch' />
     <extension name='adaptivesearchbackoffice' />
